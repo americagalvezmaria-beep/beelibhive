@@ -1,102 +1,256 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Page Title</title>
-  <style>
-    body {
-      background-image: url("images/hive.jpg");
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-      font-family: Times New Roman, sans-serif;
-      overflow-x: hidden;
-    }
-    h1 {
-      color: gold;
-      background-color: rgba(45, 155, 255, 0.6);
-      display: inline-block;
-      padding: 10px 20px;
-      border-radius: 8px;
-    }
-    .logo {
-      display: block;
-      margin: 20px auto; 
-      width: 300px;  
-      height: auto;
-    }
-    p {
-      border: 2px solid gold;
-      background-color: rgba(255, 255, 145, 0.7);
-      padding: 15px;
-      border-radius: 8px;
-      max-width: 800px;
-      margin: 20px auto;
+
+/*
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #372412 url(images/img01.gif) repeat-x;
+	font-size: 13px;
+	color: #FFFFFF;
 }
 
-    .drawing1 {
-      display: left;
-      margin: 20px auto; 
-      width: 450px;  
-      height: auto;
-    }
+body, th, td, input, textarea, select, option {
+	font-family: Arial, Helvetica, sans-serif;
+}
 
-    .drawing2 {
-      display: center;
-      margin: 20px auto; 
-      width: 450px;  
-      height: auto;
-    }
-    
-    .drawing3 {
-      display: right;
-      margin: 20px auto; 
-      width: 500px;  
-      height: auto;
-    }
+h1, h2, h3 {
+	text-transform: lowercase;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #FFFFFF;
+}
 
-    footer {
-      background-color: rgba(0, 0, 0, 0.4);
-      color: white;
-      text-align: center;
-      padding: 15pxpx;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-    }
-    footer a {
-      color: gold;
-      margin: 0 10px;
-      text-decoration: none;
-    }
-    footer a:hover {
-      text-decoration: underline;
-    }
-  </style>
-</head>
-<body>
-  <center><h1>BeeLib's Hive</h1></center>
+h1 {
+	letter-spacing: -2px;
+	font-size: 3em;
+}
 
-  <img src="images/BeeLibLogo.jpeg" alt="BeeLib's Hive Logo" class="logo">
+h2 {
+	letter-spacing: -1px;
+	font-size: 2em;
+}
 
-  <p>
-    Welcome to my hive, here you'll be able to find my doodles, sketches and art in general. Hope you enjoy!
-    <br>
-    My name is Libertad and I'm currently working on getting my Bachelor's Degree at The College of Westchester. I'm from Guatemala but have been living in the US for almost 10 years now so I can communicate in both Spanish and English with no problem.
-    <br>
-    I look forward to finishing college and continue to better my skills to work on commissions on a regular basis and eventually get a position on an animation or videogame company.
-  </p>
+h3 {
+	font-size: 1em;
+}
 
-    <img src="images/JunkratArt.jpeg" alt="Junkrat Art" class="drawing1">
-    <img src="images/LibertadMemeSketch.jpeg" alt="Libertad Meme Sketch" class="drawing2">
-    <img src="images/FacesSketch.jpeg" alt="Faces Sketch" class="drawing3">
-  <footer>
-    <a href="https://www.instagram.com/_america_galvez_/" target="_blank">Instagram</a> |
-    <a href="https://x.com/_Libertad_Gal" target="_blank">Twitter/X</a> |
-    <a href="https://www.youtube.com/channel/UCXuKYkdQLArPec0ikXuEIUQ" target="_blank">YouTube</a>
-    <br><br>
-    &copy; All Rights Reserved 2025
-  </footer>
-</body>
-</html>
+p, ul, ol {
+	line-height: 200%;
+}
 
+blockquote {
+	padding-left: 1em;
+}
 
+blockquote p, blockquote ul, blockquote ol {
+	line-height: normal;
+	font-style: italic;
+}
+
+a {
+	color: #FFEA6F;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+img { border: none; }
+
+/* Header */
+
+#header {
+	width: 830px;
+	height: 280px;
+	margin: 0 auto;
+	background: url(images/img02.jpg) no-repeat;
+}
+
+/* Logo */
+
+#logo {
+	height: 170px;
+	background: url(images/img07.gif) no-repeat left 65%;
+}
+
+#logo h1 {
+	float: left;
+	padding: 40px 40px 0 50px;
+	letter-spacing: -2px;
+	font-size: 48px;
+}
+
+#logo h2 {
+	float: right;
+	padding: 68px 0 0 0;
+	font-size: 24px;
+	
+}
+
+#logo a {
+	text-decoration: none;
+	color: #372412;
+}
+
+/* Gallery */
+
+#gallery {
+	clear: both;
+	width: 830px;
+	height: 300px;
+	margin: 0 auto;
+	
+}
+
+#top-photo h2 {
+	height: 1.4em;
+	font-size: 1em;
+}
+
+#top-photo p {
+	margin: 0;
+	padding: 0 0 10px 0;
+}
+
+/* Menu */
+
+#menu {
+	width: 830px;
+	height: 70px;
+	background: url(images/img03.jpg) no-repeat;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	width: 166px;
+	height: 73px;
+	padding-top: 35px;
+	text-transform: lowercase;
+	text-decoration: none;
+	text-align: center;
+	letter-spacing: -1px;
+	font-size: 24px;
+	color: #FFFFFF;
+}
+
+#menu a:hover {
+	background: url(images/img09.jpg) no-repeat;
+	color: #FFFFFF;
+}
+
+#menu .active a {
+	background: url(images/img09.jpg) no-repeat;
+	color: #372412;
+}
+
+/* Page */
+
+#page {
+	width: 830px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 532px;
+}
+
+.post {
+	padding: 0 0 20px 0;
+}
+
+.title {
+	margin: 0;
+	border-bottom: 2px solid #4A3903;
+}
+
+.byline {
+	margin: 0;
+}
+
+.meta {
+	border-top: 1px solid #4A3903;
+	text-align: right;
+	color: #646464;
+}
+
+.meta a {
+	padding-left: 15px;
+	background: url(images/img06.gif) no-repeat left center;
+	font-weight: bold;
+}
+
+/* Sidebar */
+
+#sidebar {
+	float: right;
+	width: 240px;
+}
+
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#sidebar li {
+}
+
+#sidebar li ul {
+	padding: 15px 0;
+}
+
+#sidebar li li {
+	padding-left: 30px;
+	border-bottom: 1px dotted #4A3903;
+	background: url(images/img06.gif) no-repeat 15px 50%;
+}
+
+#sidebar h2 {
+	margin: 0;
+	padding: 20px 0 2px 30px;
+	background: url(images/img05.gif) no-repeat left bottom;
+	border-bottom: 2px solid #4A3903;
+}
+
+#sidebar a {
+	text-decoration: none;
+}
+
+#sidebar a:hover {
+	text-decoration: underline;
+}
+
+/* Footer */
+
+#footer {
+	clear: both;
+	padding: 20px 0;
+	background: #FFEA6F;
+	border-top: 3px solid #E8AD35;
+	text-align: center;
+	font-size: smaller;
+	color: #E8AD35;
+}
+
+#footer a {
+	color: #C28C21;
+}
