@@ -86,9 +86,9 @@
     I look forward to finishing college and continue to better my skills to work on commissions on a regular basis and eventually get a position on an animation or videogame company.
   </p>
 
-    <img src="images/JunkratArt.jpeg" alt="Junkrat Art" class="drawing1">
-    <img src="images/LibertadMemeSketch.jpeg" alt="Libertad Meme Sketch" class="drawing2">
-    <img src="images/FacesSketch.jpeg" alt="Faces Sketch" class="drawing3">
+    <img src="images/KaeyaNewStorm.jpg" alt="Kaeya Art" class="drawing1">
+    <img src="images/IanLightfootRef.jpg" alt="Ian Art" class="drawing2">
+    <img src="images/Lukloe1.jpg" alt="Lukloe Art" class="drawing3">
   <footer>
     <a href="https://www.instagram.com/_america_galvez_/" target="_blank">Instagram</a> |
     <a href="https://x.com/_Libertad_Gal" target="_blank">Twitter/X</a> |
